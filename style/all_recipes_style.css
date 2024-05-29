@@ -1,0 +1,102 @@
+@font-face 
+{
+  font-family: "Tihana";
+  src: url("style/Fonts/tihana.otf");
+  font-style: normal ;
+  font-weight: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  height: 50px;
+  background-color: #FCD690;
+  font-family: "Tihana";
+  font-size: 28px;
+}
+#navbar a {
+  color:black;
+  padding: 16px 10px;
+  text-decoration: none;
+}
+#navbar a:hover {
+  background-color: #FBC057;
+}
+#navbar li { 
+  display: inline; 
+}
+
+body{
+  background-image: url("image/back/back.png");
+  background-color: #3B3838;
+}
+.start
+{
+  background-color: #FFF19F;
+  font-family: "Tihana";
+  display: flex;
+  justify-content: center;
+}
+.description{
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.description img{
+  width: 150px;
+}
+.start-head
+{
+  font-size: 60px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  width: 100%;
+  height: 550px;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-cat-1{
+  display: flex;
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.cat-1{
+  width: 100px;
+  height: 100px;
+}
+.content-cat-2{
+  display: flex;
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.cat-2{
+  width: 100px;
+  height: 100px;
+}
+.recipes{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.recipes img{
+  width: 200px;
+}

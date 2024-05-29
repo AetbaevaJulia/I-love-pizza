@@ -1,0 +1,99 @@
+@font-face 
+{
+  font-family: "Tihana";
+  src: url("style/Fonts/tihana.otf");
+  font-style: normal ;
+  font-weight: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  height: 50px;
+  background-color: #FCD690;
+  font-family: "Tihana";
+  font-size: 28px;
+}
+#navbar a {
+  color:black;
+  padding: 16px 10px;
+  text-decoration: none;
+}
+#navbar a:hover {
+  background-color: #FBC057;
+}
+#navbar li { 
+  display: inline; 
+}
+
+body{
+  background-image: url("image/back/back.png");
+  background-color: #3B3838;
+}
+.start
+{
+  background-color: #FFF19F;
+  font-family: "Tihana";
+  display: flex;
+  justify-content: center;
+}
+.description{
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.start-head
+{
+  font-size: 60px;
+  text-align: center;
+}
+.start-p{
+  font-size: 24px;
+  text-align: center;
+}
+.start-cat
+{
+  width: 100px;
+  height: 100px;
+}
+
+.content{
+  height: 290px;
+}
+.content-items{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.content-cat{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.content-cat img{
+  width: 100px;
+}
+.links{
+  display: flex;
+  width: 80%;
+  height: 100%;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.links img{
+  width: 200px;
+}
